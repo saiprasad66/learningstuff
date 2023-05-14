@@ -1,0 +1,223 @@
+code exceution process has 2 stages
+1. complile time process 
+ if you are using the C# programming language to develop an application, when you compile the application,
+ the C# language compiler will convert your source code into Microsoft Intermediate Language (MSIL) code.
+2.RUn time process
+The Common Language Runtime (CLR) includes a JIT compiler for converting MSIL to native code.
+During the runtime of a program, the "Just in Time" (JIT) compiler of the Common Language Runtime (CLR) uses the Metadata and
+ converts Microsoft Intermediate Language (MSIL) into native code.
+ 
+BYTE CODE (MSIL + META DATA) ----- Just-In-Time (JIT) compiler------> NATIVE CODE
+
+
+===============WHY OOPS==============================
+OOP is faster and easier to execute
+OOP provides a clear structure for the programs
+OOP helps to keep the Java code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug
+OOP makes it possible to create full reusable applications with less code 
+and shorter development time
+
+
+=========diff b/w abstract & virtual 
+Abstarct Methods
+Abstract Method resides in abstract class and it has no body.
+Abstract Method must be overridden in non-abstract child class.
+Virtual Methods
+Virtual Method can reside in abstract and non-abstract class.
+It is not necessary to override virtual method in derived but it can be.
+Virtual method must have body ….can be overridden by “override keyword”
+
+=--=-=-=Diff b/w sortedlist&sorted dictionary==-=-=-=-=-=-=
+In SortedList, the elements are stored in a continuous block in memory.	
+In SortedDictionary, the elements are stored in separate object that can spread all over the heap.
+It require less memory for storage.
+It require more memory for storage.
+In SortedList, you can access elements using the index.	
+In SortedDictionary, you can access elements using index or key. Here key access is sufficient there is no need of accessing elements using index.
+
+
+==-=-=-=-diff b/w Array&ArrayList=-=-=-=-==-=
+Array stores a fixed number of elements. The size of an Array must be specified at the time of initialization.
+ArrayList grows automatically and you don't need to specify the size.
+Array is strongly typed. This means that an array can store only specific type of items\elements.
+ArrayList can store any type of items\elements.
+No need to cast elements of an array while retrieving because it is strongly typed and stores a specific type of items only.
+The items of ArrayList need to be cast to an appropriate data type while retrieving. So, boxing and unboxing happens.
+
+--=-==--diff b/w Hashtable &Dictionary-=-=-=-=-=-=-=
+Hashtable is included in the System.Collections namespace.
+Dictionary is included in the System.Collections.Generic namespace.
+Hashtable is a loosely typed (non-generic) collection, this means it stores key-value pairs of any data types.
+Dictionary is a generic collection. So it can store key-value pairs of specific data types.
+Hashtable returns null if we try to find a key which does not exist.
+Dictionary throws an exception if we try to find a key which does not exist.
+Data retrieval is slower than dictionary because of boxing-unboxing.
+Data retrieval is faster than Hashtable.
+========copy constructor=========================
+The constructor which creates an object by copying variables from another object is called a copy constructor.
+ The purpose of a copy constructor is
+ to initialize a new instance to the values of an existing instance.
+using System;
+namespace copyConstractor
+{
+    class employee
+    {
+        private string name;
+        private int age;
+        public employee(employee emp)   // declaring Copy constructor.
+        {
+            name = emp.name;
+            age = emp.age;
+        }
+        public employee(string name, int age)  // Instance constructor.
+        {
+            this.name = name;
+            this.age = age;
+        }
+        public string Details     // Get deatils of employee
+        {
+            get
+            {
+                return  " The age of " + name +" is "+ age.ToString();
+            }
+        }
+    }
+    class empdetail
+    {
+        static void Main()
+        {
+            employee emp1 = new employee("Vithal", 23);  // Create a new employee object.
+            employee emp2 = new employee(emp1);          // here is emp1 details is copied to emp2.
+            Console.WriteLine(emp2.Details);
+            Console.ReadLine();
+        }
+    }
+}
+
+
+
+-=-=-=-=Private Constructor=-=-=-=-=
+when the constructor is created by using the Private Access Specifier, then it is called a Private Constructor
+ you can create the instance from within the class outside of the class we can't create
+using System;
+namespace PrivateConstructorDemo
+{
+    class Program
+    {
+        //Private Constructor
+        private Program()
+        {
+            Console.WriteLine("This is Private Constructor");
+        }
+        public void Method1()
+        {
+            Console.WriteLine("Method1 is Called");
+        }
+
+        static void Main(string[] args)
+        {
+            //Creating instance of Program class using Private Constructor
+            Program obj = new Program();
+            obj.Method1();
+            Console.ReadKey();
+        }
+    }
+}
+
+Private Constructor Restricting Inheritance in C#
+
+using System;
+namespace PrivateConstructorDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Creating instance of Child class
+            Child obj = new Child();
+            Console.ReadKey();
+        }
+    }
+
+    public class Parent
+    {
+        //Private Constructor
+        private Parent()
+        {
+            Console.WriteLine("Parent Class Private Constructor is Called");
+        }
+    }
+    public class Child : Parent
+    {
+        public Child()
+        {
+            Console.WriteLine("Child Class Public Constructor is Called");
+        }
+    }
+}
+
+-=-==-=-static constructor-=-=-=-=-=
+The static constructor for a class executes before any instance of the class is created.
+The static constructor for a class executes before any of the static members for the class are referenced.
+The static constructor for a class executes after the static field initializers (if any) for the class.
+The static constructor for a class executes at most one time during a single program instantiation
+A static constructor does not take access modifiers or have parameters.
+A static constructor is called automatically to initialize the class before the first instance is created or any static members are referenced.
+A static constructor cannot be called directly.
+
+=========error&exception===================
+
+ Error occurs due to unavailability of a system resource 
+while an Exception occurs due to an issue in the program.
+
+
+enco-jit to compile only the methods that are called at run time and remove them from memory after execution
+
+
+Creating an object of the derived class will first call the constructor of the base class and then the derived class.
+
+
+Use the base keyword in the derived class to access the public members of the base class.
+
+
+============checked&unchecked exception===================
+
+C# provides checked and unchecked keyword to handle integral type exceptions
+
+In checked context, arithmetic overflow raises an exception whereas, 
+in an unchecked context, arithmetic overflow is ignored and result is truncated.
+
+using System;  
+namespace CSharpProgram  
+{  
+    class Program  
+    {  
+        static void Main(string[] args)   
+        {  
+            checked  
+            {  
+                int val = int.MaxValue;  
+                Console.WriteLine(val + 2);  
+            }  
+        }  
+    }  
+}  
+
+
+================unchecked========
+using System;  
+namespace CSharpProgram  
+{  
+    class Program  
+    {  
+        static void Main(string[] args)   
+        {  
+            unchecked  
+            {  
+                int val = int.MaxValue;  
+                Console.WriteLine(val + 2);  
+            }  
+        }  
+    }  
+}  
+Output:

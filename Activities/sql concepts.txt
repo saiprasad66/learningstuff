@@ -1,0 +1,108 @@
+what is key?
+-A KEY in SQL is a value used to identify records in a table uniquely
+An SQL KEY is a single column or combination of multiple columns 
+used to uniquely identify rows or tuples in the table.
+what is primary key?
+-A primary is a single column value used to identify a database record uniquely.
+not null,unique
+What is Composite Key?
+-A composite key is a primary key composed of multiple columns used to identify a record uniquely.
+what is foriegn key?
+Foreign Key references the primary key of another Table!
+
+-A foreign key can have a different name from its primary key
+fk can only have values present in pk.
+Unlike the Primary key, they do not have to be unique. Most often they aren’t
+Foreign keys can be null even though primary keys can not.
+
+1NF:
+-Each table cell should contain a single value.
+-Each record needs to be unique.
+2NF:
+-Table needs to be in 1NF
+-Removes any partial dependencies
+         Easier way of thinking about it is just avoid composite primary keys and by default, you are in 2NF
+         Fancy way is that every column defined in a table must be dependent on both composite primary keys.
+3NF:
+- Be in 2NF
+- Has no transitive functional dependencies(A transitive functional dependency is when changing a non-key column,
+                                             might cause any of the other non-key columns to change).
+
+
+
+Common Table Expression (CTE)
+Creating a temporary table in SQL to do some operations on
+Almost the same as a subquery but it generates a temporary table
+why cte?
+CTEs offer a logical and legible approach to writing queries that can break the complex queries down to a series of logical steps,
+ help to improve the legibility of your queries, and achieve more complex result sets.
+syntax:
+-- Define a CTE to return the first 10 people
+WITH PeopleCTE AS (
+  SELECT TOP 10 ID, FirstName, LastName
+  FROM People
+)
+-- Use the CTE to select the first 10 people
+SELECT *
+FROM PeopleCTE;
+
+
+-CTE is a result set that remains in memory for the scope of a single execution of a SELECT, INSERT, UPDATE, DELETE, or MERGE statement.
+
+
+What is the Difference Between Functions and Procedures in SQL Server?
+1.A function must return a value, it is mandatory whereas a procedure returning a value is optional.
+2.The procedure can have parameters of both input and output whereas a function can have only input parameters.
+3.In a procedure, we can perform Select. Update, Insert and Delete operations whereas function can only be used to perform select operations. 
+4.It cannot be used to perform Insert, Update, and Delete operations that can change the state of the database.
+
+CREATE FUNCTION FN_GetStudentDetailsByID
+(
+  @ID INT
+)
+RETURNS TABLE
+AS
+RETURN (SELECT * FROM Student WHERE ID = @ID)
+
+SELECT * FROM FN_GetStudentDetailsByID(2)
+
+-- Multi-statement Table Valued function:
+CREATE FUNCTION MSTVF_GetEmployees()
+RETURNS @Table Table (ID int, Name nvarchar(20), DOB Date)
+AS
+BEGIN
+  INSERT INTO @Table
+    SELECT ID, Name, Cast(DOB AS Date)
+    FROM Employee
+  Return
+End
+SELECT * FROM MSTVF_GetEmployees()
+
+What are the differences between Inline and Multi-Statement Table-Valued Functions in SQL Server?
+1.The Inline Table-Valued Function cannot have BEGIN and END blocks whereas the Multi-Statement Table-Valued Function has the Begin and End blocks.
+2.It is possible to update the underlying database table using the inline table-valued function but it is not possible to update
+ the underlying database table using the multi-statement table-valued function.
+3.In an Inline Table-Valued Function, the returns clause cannot define the structure of the table that the function is going to return 
+whereas in the Multi-Statement Table-Valued Function the returns clause defines the structure of the table that the function is going to return.
+
+
+TCL stands for Transaction Control Languages.
+ These commands are used for maintaining consistency of the database and for the management of transactions made by the DML commands. 
+1. COMMIT : 
+This command is used to save the data permanently. 
+Whenever we perform any of the DML command like -INSERT, DELETE or UPDATE, these can be rollback if the data is not stored permanently.
+ So in order to be at the safer side COMMIT command is used. 
+2.RollBack
+This command is used to get the data or restore the data to the last savepoint or last committed state. If due to some reasons the data inserted, deleted or updated is not correct,
+ you can rollback the data to a particular savepoint or if savepoint is not done, then to the last committed state. 
+3.SavePoint
+This command is used to save the data at a particular point temporarily, so that whenever needed can be rollback to that particular point. 
+
+Syntax:  savepoint A;
+
+
+GRANT privileges_names ON object TO user;
+GRANT SELECT ON Users TO'Amit'@'localhost;
+
+
+

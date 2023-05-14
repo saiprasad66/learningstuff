@@ -1,0 +1,8 @@
+the process of testing code when you know or have access to the internal workings and structure of a program is called white box testing
+
+the process of testing code when you don't know or don't have access to the source code is called black box testing
+
+
+Smoke testing, also known as “Build Verification Testing” or “Build Acceptance Testing,
+Smoke Testing is a software testing method that determines whether the employed build is stable or not. 
+It acts as a confirmation of whether the quality assurance team can proceed with further testing. 

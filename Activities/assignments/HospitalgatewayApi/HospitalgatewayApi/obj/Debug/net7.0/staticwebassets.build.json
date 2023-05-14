@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ytp6tC/3fcjCNJpizgZJAB0LwawaAO/EbI5UqWhxRNQ=",
+  "Source": "HospitalgatewayApi",
+  "BasePath": "_content/HospitalgatewayApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

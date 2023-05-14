@@ -1,0 +1,6 @@
+KOTTI SAI GANESH
+20465215
+Given  EMPLOYEE table is in the 1NF with EMPNO,DEPTNO as the primary keys making it as composite  primary key 
+-> all the colums are in thier atomic form can not be further decomposed
+-> there is a partial dependency  so we can normalize the given table into two tables as follows
+  | EMPNO |   ENAME  |  SAL |                                   | DEPTNO  |  DNAME  |  LOC  |      

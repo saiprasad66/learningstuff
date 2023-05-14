@@ -1,0 +1,26 @@
+The Software Development Life Cycle is the general process followed by software development. 
+There are different methodologies to achieve this, including Waterfall and Agile. 
+
+Life cyccle of software developent
+1.Gather requirements
+2.Analysis
+3.design
+4.development
+5.Testing
+6.user maintance  testing
+7.release
+8. maintain
+
+======difference b/w scrum master&prouct owner
+While the Scrum Master and Product Owner work closely together, these roles are very different.
+A Scrum Master leads the Agile development team and supports the Product Owner by relaying updates to relevant employees. Product Owners manage the product backlog and ensure the company gains maximum value from the product.
+
+
+git pull
+git fetch
+git merge
+git clone
+git fork
+git branch
+checkout
+

@@ -1,0 +1,122 @@
+ASP.NET Core is a free, open-source, and cross-platform framework for building cloud-based applications, such as web apps, IoT apps, and mobile backends.
+It is designed to run on the cloud as well as on-premises.
+
+It was architected modular with minimum overhead, and then other more advanced features can be added as NuGet packages as per application requirement.
+This results in high performance, require less memory, less deployment size, and easy to maintain.
+
+
+Why ASP.NET Core?
+1.Supports Multiple Platforms: ASP.NET Core applications can run on Windows, Linux, and Mac
+2.Fast: ASP.NET Core no longer depends on System.Web.dll for browser-server communication. 
+ASP.NET Core allows us to include packages that we need for our application.
+3.IoC Container: It includes the built-in IoC container for automatic dependency injection
+ which makes it maintainable and testable.
+4.Hosting: ASP.NET Core web application can be hosted on multiple platforms with any web server such as IIS, Apache etc.
+ It is not dependent only on IIS as a standard .NET Framework.
+5.Integration with Modern UI Frameworks: It allows you to use and manage modern UI frameworks such as AngularJS.
+
+
+Application programming interface (API) is a set of subroutine definitions, protocols, and tools for building software and applications.
+
+ASP.NET Web API
+The ASP.NET Web API is an extensible framework for building HTTP based services that can be accessed
+ in different applications on different platforms such as web, windows, mobile etc.
+
+
+What is microservices and example?
+Microservices are an architectural and organizational approach to software development where software is composed of small independent services that communicate over well-defined APIs
+
+MVC vs WEB API
+
+ 1.Asp.Net MVC is used to create web applications that return both views and data but Asp.Net Web API is used to create full-blown HTTP services with an easy and simple way that returns only data, not view.
+
+2.Web API helps to build REST-ful services over the .NET Framework and it also supports content-negotiation(it's about deciding the best response format data that could be acceptable by the client. it could be JSON, XML, ATOM or other formatted data), self-hosting which are not in MVC.
+
+3.Web API also takes care of returning data in particular format like JSON, XML or any other based upon the Accept header in the request and you don't worry about that. MVC only return data in JSON format using JsonResult.
+
+4.In Web API the request is mapped to the actions based on HTTP verbs but in MVC it is mapped to actions name.
+
+5.Asp.Net Web API is a new framework and part of the core ASP.NET framework. The model binding, filters, routing, and other MVC features exist in Web API are different from MVC and exists in the new System.Web.Http assembly. In MVC, these features exist within.System.Web.Mvc Hence Web API can also be used with Asp.Net and as a stand-alone service layer.
+
+6.You can mix Web API and MVC controller in a single project to handle advanced AJAX requests which may return data in JSON, XML or any others format and building a full-blown HTTP service. Typically, this will be called Web API self-hosting.
+
+7.When you have mixed MVC and Web API controller and you want to implement the authorization then you have to create two filters one for MVC and another for Web API since both are different.
+
+8.Moreover, Web API is lightweight architecture and except the web application, it can also be used with smartphone apps.
+
+
+
+
+CreateBuilder()
+Initializes a new instance of the WebApplicationBuilder class with preconfigured defaults
+
+ActionResult=-===
+IActionResult is an interface and ActionResult is an implementation of that interface.
+
+ActionResults is an abstract class and action results like ViewResult, PartialViewResult, JsonResult, etc., derive from ActionResult.
+Action Result is actually a data type. When it is used with action method, it is called return type.
+
+ there are three categories of data types of ActionResult
+1.Cpntent Returning Results
+As the name depicts these results are used for returning the content to the browser. There are 7 types of content returning results:
+
+ViewResult 
+PartialViewResult 
+ContentResult 
+EmptyResult 
+FileResult 
+JsonResult 
+JavaScriptResult
+2.Redirection Results
+This type of ActionResult is used for redirection purpose
+two types
+
+RedirectResult
+Redirect to Action Result
+
+3.Status Result
+HttpStatusCodeResult 
+HttpUnauthorizedResult 
+HttpNotFoundResult
+
+IActionResult is an interface, we can create a custom response as a return, 
+when you use ActionResult you can return only predefined ones for returning a View or a resource.
+With IActionResult we can return a response, or error as well. 
+
+
+
+In ASP.NET Core Web API, in three different ways, we can return data from the controller action method.
+
+Specific type
+IActionResult
+ActionResult<T>
+
+
+
+
+1.Specific Type as the Return type in ASP.NET Core Web API
+We can return any type of primitive data like string, integer, Boolean, etc.,
+ or complex data like Employee, Product, etc, directly from the controller action method.
+
+2.The IActionResult return type is appropriate when multiple ActionResult return types are possible in an action. 
+The ActionResult types represent various HTTP status codes.
+
+The IActionResult is an interface and it is used to return multiple types of data
+
+
+Benefits of using IActionResult type in ASP.NET Core Web API
+It allows us to return multiple types of data along with the status code, this is very important for RESTful APIs
+
+The drawback of using IActionResult type in ASP.NET Core Web API
+As it returns multiple types of data, the swagger would not be able to identify the output, so we need to use the ProducesResponseType explicitly as shown below.
+
+3.
+
+
+
+Routing is responsible for matching incoming HTTP requests and dispatching those requests to the app's executable endpoints.
+ Endpoints are the app's units of executable request-handling code. Endpoints are defined in the app and configured when the app starts.
+
+
+the markup language is used to present information 
+whereas programming language is used to give instructions to a computer to perform a particular task."

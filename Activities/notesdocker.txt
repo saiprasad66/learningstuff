@@ -1,0 +1,143 @@
+Docker is an open-source containerization platform used for developing, deploying,
+ and managing applications in lightweight virtualized environments called containers.
+
+ocker is a container management service. The keywords of Docker are develop, ship and run anywhere.
+ The whole idea of Docker is for developers to easily develop applications, ship them into containers without any dependices which can then be deployed anywhere.
+
+What Are Containers?
+Docker containers are lightweight virtualized runtime environments for running applications. Each container represents a package of software that contains code, system tools, runtime, libraries, dependencies, and configuration files required for running a specific application. They are independent and isolated from the host and other instances running on the host.
+
+The Docker daemon ( dockerd ) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. 
+A daemon(server) can also communicate with other daemons to manage Docker services
+
+
+
+
+
+A virtual machine (VM) is an operating system that shares the physical resources of one server.
+ It is a guest on the host’s hardware, which is why it is also called a guest machine
+
+
+There are several layers that make up a virtual machine. The layer that enables virtualization is the hypervisor.
+ A hypervisor is a software that virtualizes the server.
+
+
+Each VM is completely isolated from the host operating system. Also, it requires its own OS, which can be different from the host’s OS.
+ Each has its own binaries, libraries, and applications
+
+
+Virtual machines are a better solution if you need to:
+
+
+Manage a variety of operating systems
+Manage multiple apps on a single server
+Run an app that requires all the resources and functionalities of an OS
+Ensure full isolation and security
+
+Containers are suitable if you need to:
+
+
+Maximize the number of apps running on a server
+Deploy multiple instances of a single application
+Have a lightweight system that quickly starts
+Develop an application that runs on any underlying infrastructure
+
+
+A Docker image is a read-only template that contains a set of instructions for creating a container that can run on the Docker platform. It provides a 
+convenient way to package up applications and preconfigured server environments, which you can use for your own private use or share publicly with other Docker users.
+
+A Docker container is a virtualized run-time environment where users can isolate applications from the underlying system.
+ These containers are compact, portable units in which you can start up an application quickly and easily.
+
+
+comands
+docker pull jenkis
+
+docker run
+docker images- displAYS list of images
+docker run image -to run command in container
+docker rm imageid -remove image
+docker inspect name-view details of image
+docker ps -This command is used to return the currently running containers.
+docker ps-a =This command is used to list all of the containers on the systtem
+docker top containerid= you can see the top processes within a container.
+docker stop container id=his command is used to stop a running container.
+docker pause 
+docker start
+docker rm containerId=− This is the Container ID which needs to be removed.
+docker attach containerid=This command is used to attach to a running container.
+docker kill containerId =This command is used to kill the processes in a running container
+
+
+
+Dockerfile
+A Dockerfile is a script that consists of a set of instructions on how to build a Docker image
+
+Step 1 − Create a file called Docker File and edit it using vim. Please note that the name of the file has to be "Dockerfile" with "D" as capital.
+
+Step 2 − Build your Docker File using the following instructions.
+
+#This is a sample Image 
+FROM ubuntu 
+MAINTAINER demousr@gmail.com 
+
+RUN apt-get update 
+RUN apt-get install –y nginx 
+CMD [“echo”,”Image created”]
+
+The first line "#This is a sample Image" is a comment. You can add comments to the Docker File with the help of the # command
+
+The next line has to start with the FROM keyword. It tells docker, from which base image you want to base your image from. In our example, we are creating an image from the ubuntu image.
+
+The next command is the person who is going to maintain this image. Here you specify the MAINTAINER keyword and just mention the email ID.
+
+The RUN command is used to run instructions against the image. In our case, we first update our Ubuntu system and then install the nginx server on our ubuntu image.
+
+The last command is used to display a message to the user.
+
+Step 3 − Save the file. In the next chapter, we will discuss how to build the image.
+
+
+docker build  -t ImageName:TagName dir
+
+Options
+-t − is to mention a tag to the image
+
+ImageName − This is the name you want to give to your image.
+
+TagName − This is the tag you want to give to your image.
+
+Dir − The directory where the Docker File is present.
+
+
+docker build –t  myimage : 0.1 . 
+Here, myimage is the name we are giving to the Image and 0.1 is the tag number we are giving to our image.
+
+Since the Docker File is in the present working directory, we used "." at the end of the command to signify the present working directory.
+
+A multi-stage build is a process that allows you to break the steps in building a Docker image into multiple stages. This will enable you to create images that include only the dependencies that are necessary for the desired functionality of the final application, cutting down on both time and space.
+
+doker volume====
+to preserve data produced by a running container is using Docker volumes. This helpful tool allows users to save data, share it between containers, and mount it to new ones.
+The volumes are stored on the host, independent of the container life cycle. 
+This allows users to back up data and share file systems between containers easily.
+
+
+docker volume create [volume_name]
+
+docker volume list--list all the docker volumes
+
+docker volume inspect [volume_name]
+
+docker run --mount source=[volume_name],destination=[path_in_container] [docker_image]
+
+Replace [path_in_container] with the path where you want to place the data volume in the container. Everything stored in that directory automatically gets saved on the data volume on the host as well
+
+
+Container orchestration automates the deployment, management, scaling, and networking of containers
+
+Container orchestration can be used in any environment where you use containers. It can help you to deploy the same application across different environments without needing to redesign it
+
+
+
+

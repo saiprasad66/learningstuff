@@ -1,0 +1,15 @@
+C:\Activities\programsCsharp\handlings\bin\Debug\net6.0\handlings.exe
+C:\Activities\programsCsharp\handlings\bin\Debug\net6.0\handlings.deps.json
+C:\Activities\programsCsharp\handlings\bin\Debug\net6.0\handlings.runtimeconfig.json
+C:\Activities\programsCsharp\handlings\bin\Debug\net6.0\handlings.dll
+C:\Activities\programsCsharp\handlings\bin\Debug\net6.0\handlings.pdb
+C:\Activities\programsCsharp\handlings\obj\Debug\net6.0\handlings.csproj.AssemblyReference.cache
+C:\Activities\programsCsharp\handlings\obj\Debug\net6.0\handlings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Activities\programsCsharp\handlings\obj\Debug\net6.0\handlings.AssemblyInfoInputs.cache
+C:\Activities\programsCsharp\handlings\obj\Debug\net6.0\handlings.AssemblyInfo.cs
+C:\Activities\programsCsharp\handlings\obj\Debug\net6.0\handlings.csproj.CoreCompileInputs.cache
+C:\Activities\programsCsharp\handlings\obj\Debug\net6.0\handlings.dll
+C:\Activities\programsCsharp\handlings\obj\Debug\net6.0\refint\handlings.dll
+C:\Activities\programsCsharp\handlings\obj\Debug\net6.0\handlings.pdb
+C:\Activities\programsCsharp\handlings\obj\Debug\net6.0\handlings.genruntimeconfig.cache
+C:\Activities\programsCsharp\handlings\obj\Debug\net6.0\ref\handlings.dll

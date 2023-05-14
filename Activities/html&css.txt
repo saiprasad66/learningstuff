@@ -1,0 +1,82 @@
+HTMLt is a markup language that defines the structure of your content
+HTML is a Markup Language which means you use HTML to simply "mark-up" a text document with tags that tell a Web browser how to structure it to display.
+=-=-=-=structure of html--=-=======================================
+
+Doctype DTD (Document Type Declaration OR Document Type Definition)
+First line of an HTML document - !DOCTYPE html
+It instructs Browsers/User Agents which version of html used for rendering
+
+Head
+
+The <head> element contains meta information about the document
+All external references in the form of styles, scripts, and third-party plug-ins themes, etc.
+Also consists of additional instructions on how the document will render on different devices
+HEAD section contains non-visible instructions, non-visual elements
+
+
+Body
+Body section consists of visible instructions, visual elements
+All page contents which are visible on the page in the browser
+
+
+Tag
+
+HTML tags are like keywords which defines that how web browser
+ will format and display the content
+it indicates the beginning and end of an HTML element in an HTML document
+
+
+Attribute
+
+HTML attributes are special words that provide additional information 
+about the elements or attributes are the modifier of the HTML element
+Each element or tag can have attributes, which defines the characteristics/behavior of that element
+
+Element
+Elements are responsible for creating web pages and define content in that webpage
+
+
+div 
+
+ <div> tag is a block-level element, so a line break is placed before and after it
+The Div is the most usable tag in web development because it helps us to separate data in the web page and we can create a particular section
+The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
+
+
+
+
+css flex box properties
+
+display:
+.container {
+  display: flex; /* or inline-flex */
+}
+
+flex-direction: 
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+
+.container {
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+}
+.container {
+  align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
+}
+
+.container {
+  align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
+}
+
+.container {
+  display: flex;
+  ...
+  gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+}

@@ -1,0 +1,24 @@
+CREATE TABLE [Patient_Intial_Checkup] (
+  [pic_Id] Guid,
+  [Nurse_Id] Guid,
+  [Appointment_Id] Guid,
+  [Height] int(3),
+  [Weight] Float(6,2),
+  [Temperature] Float(6,2),
+  [Spo2] Float(6,2),
+  [Blood_Pressure] varchar(10),
+  [Sugar_level] int(3),
+  [AdditionalDetails] varchar(max),
+  [ChechupStatus] bit
+);
+
+CREATE TABLE [Appointments] (
+  [Appointment_Id] Guid,
+  [Patient_Id] Guid,
+  [Doctor_Id] Guid,
+  [Date] Date,
+  [Doctor_name] varchar(100),
+  [Concerns] varchar(max),
+  [Status] varchar(20)
+);
+

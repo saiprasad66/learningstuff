@@ -1,0 +1,43 @@
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\appsettings.Development.json
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\appsettings.json
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Minimal APi.exe
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Minimal APi.deps.json
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Minimal APi.runtimeconfig.json
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Minimal APi.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Minimal APi.pdb
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Activities\WebApplication3\WebApplication3\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\Minimal APi.csproj.AssemblyReference.cache
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\Minimal APi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\Minimal APi.AssemblyInfoInputs.cache
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\Minimal APi.AssemblyInfo.cs
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\Minimal APi.csproj.CoreCompileInputs.cache
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\Minimal APi.MvcApplicationPartsAssemblyInfo.cs
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\Minimal APi.MvcApplicationPartsAssemblyInfo.cache
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets\msbuild.Minimal APi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets\msbuild.build.Minimal APi.props
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Minimal APi.props
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Minimal APi.props
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets.build.json
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets.development.json
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\scopedcss\bundle\Minimal APi.styles.css
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\Minimal APi.csproj.CopyComplete
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\Minimal APi.dll
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\refint\Minimal APi.dll
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\Minimal APi.pdb
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\Minimal APi.genruntimeconfig.cache
+C:\Activities\WebApplication3\WebApplication3\obj\Debug\net6.0\ref\Minimal APi.dll

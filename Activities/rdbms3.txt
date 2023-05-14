@@ -1,0 +1,6 @@
+KOTTI SAI GANESH
+20465215
+The given table has EMPNO and PROJECT_NO as primary keys but the customername does not depend upon the EMPNO and depends on the PROJECT_NO making it to fail the 2NF by having the partial dependency .To make it further normalize we will do as follows
+| EMPNO  |  PROJECT_NO | NO_OF_DAYS |       
+
+| PROJECT_NO  |  CUSTOMERNAME

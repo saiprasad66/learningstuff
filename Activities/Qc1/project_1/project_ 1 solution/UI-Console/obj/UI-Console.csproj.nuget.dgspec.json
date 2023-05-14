@@ -1,0 +1,272 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\UI-Console\\UI-Console.csproj": {}
+  },
+  "projects": {
+    "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Bussiness_Logic\\Bussiness_Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Bussiness_Logic\\Bussiness_Logic.csproj",
+        "projectName": "Bussiness_Logic",
+        "projectPath": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Bussiness_Logic\\Bussiness_Logic.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Bussiness_Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\FluentApi\\FluentApi.csproj": {
+                "projectPath": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\FluentApi\\FluentApi.csproj"
+              },
+              "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Models\\Models.csproj": {
+                "projectPath": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\FluentApi\\FluentApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\FluentApi\\FluentApi.csproj",
+        "projectName": "FluentApi",
+        "projectPath": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\FluentApi\\FluentApi.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\FluentApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Models\\Models.csproj": {
+                "projectPath": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\UI-Console\\UI-Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\UI-Console\\UI-Console.csproj",
+        "projectName": "UI-Console",
+        "projectPath": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\UI-Console\\UI-Console.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\UI-Console\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Bussiness_Logic\\Bussiness_Logic.csproj": {
+                "projectPath": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\Bussiness_Logic\\Bussiness_Logic.csproj"
+              },
+              "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\FluentApi\\FluentApi.csproj": {
+                "projectPath": "C:\\Revature\\p1-saiprasad-Telagavalasa\\project_1\\project_ 1 solution\\FluentApi\\FluentApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

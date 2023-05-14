@@ -1,0 +1,15 @@
+C:\Activities\stackprogram\bin\Debug\net6.0\stackprogram.exe
+C:\Activities\stackprogram\bin\Debug\net6.0\stackprogram.deps.json
+C:\Activities\stackprogram\bin\Debug\net6.0\stackprogram.runtimeconfig.json
+C:\Activities\stackprogram\bin\Debug\net6.0\stackprogram.dll
+C:\Activities\stackprogram\bin\Debug\net6.0\stackprogram.pdb
+C:\Activities\stackprogram\obj\Debug\net6.0\stackprogram.csproj.AssemblyReference.cache
+C:\Activities\stackprogram\obj\Debug\net6.0\stackprogram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Activities\stackprogram\obj\Debug\net6.0\stackprogram.AssemblyInfoInputs.cache
+C:\Activities\stackprogram\obj\Debug\net6.0\stackprogram.AssemblyInfo.cs
+C:\Activities\stackprogram\obj\Debug\net6.0\stackprogram.csproj.CoreCompileInputs.cache
+C:\Activities\stackprogram\obj\Debug\net6.0\stackprogram.dll
+C:\Activities\stackprogram\obj\Debug\net6.0\refint\stackprogram.dll
+C:\Activities\stackprogram\obj\Debug\net6.0\stackprogram.pdb
+C:\Activities\stackprogram\obj\Debug\net6.0\stackprogram.genruntimeconfig.cache
+C:\Activities\stackprogram\obj\Debug\net6.0\ref\stackprogram.dll

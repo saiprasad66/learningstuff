@@ -1,0 +1,35 @@
+{
+    "Routes": [
+        {
+            "UpstreamPathTemplate": "/apigateway/DoctorSchedule",
+            "UpstreamHttpMethod": [ "GET" ],
+            "DownstreamPathTemplate": "/api/Doctor",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7182
+                }
+            ]
+        },
+
+        {
+            "UpstreamPathTemplate": "/apigateway/PatientSchedule",
+            "UpstreamHttpMethod": [ "GET" ],
+            "DownstreamPathTemplate": "/api/Patient",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7040
+                }
+            ]
+        }
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "https://localhost:7245"
+    }
+
+}
+
+

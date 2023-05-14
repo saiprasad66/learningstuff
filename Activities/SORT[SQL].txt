@@ -1,0 +1,57 @@
+KOTTI SAI GANESH
+20465215
+
+1)
+SELECT ename,sal,comm FROM emp WHERE comm IS NOT NULL OREDER BY 2 DESC,3 DESC;
+
+2)
+SELECT DISTINCT job FROM emp;
+
+3)
+SELECT empno emp#,ename employee,job,hiredate "Hire Date" FROM emp;
+
+4)
+SELECT lastname || ' ,'||job AS "employee and title" FROM emp;
+
+5)
+SELECT ename||' ,'||job||' ,'||hiredate||' ,'||mgr AS "THE_OUTPUT" FROM emp;
+
+6)
+SELECT ename,job,hiredate FROM emp WHERE ename=ANY('SCOTT','TURNER') ORDER BY hiredate;
+
+7)
+SELECT ename,deptno FROM emp WHERE deptno=ANY(20,30) ORDER BY ename;
+
+8)
+SELECT lastname Employee,sal "Monthly Salary" FROM emp WHERE (sal BETEWEEN 2000 ANd 3000) AND deptno= ANY(20,30);
+
+9)
+SELECT lastname,hiredate FROM emp WHERE hiredate LIKE '%81';
+
+10)
+SELECT ename,sal FROM emp WHERE sal>&sal_amount;
+
+11)
+
+SELECT ename,job FROM emp WHERE mgr IS NULL;
+
+12)
+SELECT empno,ename,sal,deptno FROM emp WHERE mgr=&mgr_num ORDER BY &order_col;
+
+
+13)
+SELECT empno,ename,sal,deptno FROM emp WHERE mgr=&mgr ORDER BY &order_col;
+
+14)
+SELECT ename FROM emp WHERE ename like('__A%');
+
+15)
+SELECT ename FROM emp WHERE ename like('%A%') AND ename like('%S%');
+
+16)
+SELECT ename,job,sal FROM emp WHERE job='CLERK' AND sal IN(800,950,1300);
+
+------------------------------------------------------------------------------------------------------------------
+
+
+

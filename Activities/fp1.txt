@@ -1,0 +1,61 @@
+One patient can have multiple appointments with different doctors.
+One doctor can have multiple appointments with different patients.
+One patient can have multiple prescriptions from different doctors.
+One patient can undergo multiple medical tests.
+One medical test can be performed for multiple patients
+
+CREATE TABLE Patients (
+  Id INT PRIMARY KEY IDENTITY(1,1),
+  Name NVARCHAR(50) NOT NULL,
+  Age INT NOT NULL,
+  Gender NVARCHAR(10) NOT NULL,
+  Address NVARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Doctors (
+  Id INT PRIMARY KEY IDENTITY(1,1),
+  Name NVARCHAR(50) NOT NULL,
+  Specialization NVARCHAR(50) NOT NULL,
+  PhoneNumber NVARCHAR(20) NOT NULL
+);
+
+CREATE TABLE Nurses (
+  Id INT PRIMARY KEY IDENTITY(1,1),
+  Name NVARCHAR(50) NOT NULL,
+  PhoneNumber NVARCHAR(20) NOT NULL
+);
+
+CREATE TABLE Appointments (
+  Id INT PRIMARY KEY IDENTITY(1,1),
+  PatientId INT NOT NULL,
+  DoctorId INT NOT NULL,
+  AppointmentDate DATETIME NOT NULL,
+  FOREIGN KEY (PatientId) REFERENCES Patients(Id),
+  FOREIGN KEY (DoctorId) REFERENCES Doctors(Id)
+);
+
+CREATE TABLE Prescriptions (
+  Id INT PRIMARY KEY IDENTITY(1,1),
+  PatientId INT NOT NULL,
+  DoctorId INT NOT NULL,
+  Prescription NVARCHAR(MAX) NOT NULL,
+  FOREIGN KEY (PatientId) REFERENCES Patients(Id),
+  FOREIGN KEY (DoctorId) REFERENCES Doctors(Id)
+);
+
+CREATE TABLE MedicalTests (
+  Id INT PRIMARY KEY IDENTITY(1,1),
+  PatientId INT NOT NULL,
+  TestName NVARCHAR(50) NOT NULL,
+  TestDate DATETIME NOT NULL,
+  Result NVARCHAR(MAX) NOT NULL,
+  FOREIGN KEY (PatientId) REFERENCES Patients(Id)
+);
+
+CREATE TABLE Billing (
+  Id INT PRIMARY KEY IDENTITY(1,1),
+  PatientId INT NOT NULL,
+  BillDate DATETIME NOT NULL,
+  Amount DECIMAL(18, 2) NOT NULL,
+  FOREIGN KEY (PatientId) REFERENCES Patients(Id)
+);

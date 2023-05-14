@@ -1,0 +1,5 @@
+KOTTI SAI GANESH
+20465215
+Given STUDENT table is in 1NF with ROLLNO  as the primary key
+->this table is again normalized to  as follows
+| ROLLNO | NAME | AGE |                             |  EXAM |  MARKS | GRADE |

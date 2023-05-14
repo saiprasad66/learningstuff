@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <form>
+    Enter number:<input type="text" id="number" name="number"/><br>
+ <input type="button" onclick="myfun()" value="submit" >
+
+ </form>   
+
+<script>
+//         var a=10;
+// var b=20;
+// var sum=a+b;
+// document.write(sum+"<br/>");
+// if(sum==30){
+//     document.write("success");
+// }
+// else{
+//     document.write("failure");
+
+// }
+// function msg(string){
+//     alert(string);
+// }
+
+//------functions(apply) determining max element-----------------
+// var arr=[1,2,3,4];
+// var maxelement=Math.max.apply(null,arr);
+// document.write(maxelement);
+
+//--joining array of same type & different type
+// var arr=[1,2,3,4];
+//  var arr1=[5,6,7,8];
+//  arr.pop.apply(arr1);
+//  document.write(arr);
+// arr.push.apply(arr,arr1);
+// document.write(arr+"<br>");
+
+// var arr2=[6,90,12,34];
+// var arr3=["sai","susmitha","Aishwarya"];
+// arr2.push.apply(arr2,arr3);
+// document.writeln(arr2);
+
+//Createing objects using literals,instance of object,object constructor
+
+//  var emp={
+//     id:2,
+//     Name:"Susmitha",
+//     salary:100000
+// }
+// document.write(emp.id+" "+emp.Name+" "+emp.salary+"<br>");
+
+
+// var myobj=new Object();
+// myobj.id=3;
+// myobj.Name="Anjani";
+// myobj.salary=10000;
+
+// document.write(myobj.id+"  "+myobj.salary+"  "+myobj.Name+"<br>");
+
+
+// function person(name,Gender){
+//     this.name=name;
+//     this.Gender=Gender;
+// }
+
+// p=new person("sailaja","female");
+// document.write(p.name+"  "+p.Gender);
+
+//---------working with array----------------------------
+
+// var arr=[1,2,3,4,5]
+// for(i=0;i<arr.length;i++){
+//     document.write(arr[i]+"<br>")
+// }
+
+// var i;
+// var name1 = new Array();
+// name1[0]="sai";
+// name1[1]="susmitha";
+// name1[2]="aish";
+// for(i=0;i<name1.length;i++){
+//     document.write(name1[i]+"<br>");
+// }
+// var names=new Array("sai","sailaja","Anjani");
+// for( i=0;i<names.length;i++){
+//     document.write(names[i]+"<br>");
+// }
+//============================Class declarations=======================
+// class Employee{
+//     constructor(id,name){
+//         this.id=id;
+//         this.name=name;
+//     }
+//     details(){
+//         document.write(this.id+" "+this.name+"<br>");
+//     }
+// }
+// var emp1=new Employee(101,"Sailaja");
+// var emp2=new Employee(102,"Aishwarya");
+// emp1.details();
+// emp2.details();
+
+//========class Expression (without class name)================
+
+// var std=class{
+//     constructor(id,name){
+//         this.id=id;
+//         this.name=name;
+//     }
+//     details(){
+//         document.write(this.id+" "+this.name);
+//     }
+// }
+// var s1=new std(102,"saiprasad");
+// s1.details();
+
+//wibdow onject------------------
+// function myfun(){
+//     var p=prompt("how are you");
+//     alert(p+"thanks for asking");
+
+// }
+
+//settimeout
+// function myfun(){
+//     setTimeout(function(){
+//         alert("msg display after 2seconds")
+//     },2000)
+// }
+
+
+//get element by id
+function myfun(){
+    var number =document.getElementById("number").value;
+    alert(number*number*number);
+}
+
+</script>
+    
+</body>
+</html>

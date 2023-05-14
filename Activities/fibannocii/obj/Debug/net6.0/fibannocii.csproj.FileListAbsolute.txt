@@ -1,0 +1,15 @@
+C:\Activities\fibannocii\obj\Debug\net6.0\fibannocii.csproj.AssemblyReference.cache
+C:\Activities\fibannocii\obj\Debug\net6.0\fibannocii.GeneratedMSBuildEditorConfig.editorconfig
+C:\Activities\fibannocii\obj\Debug\net6.0\fibannocii.AssemblyInfoInputs.cache
+C:\Activities\fibannocii\obj\Debug\net6.0\fibannocii.AssemblyInfo.cs
+C:\Activities\fibannocii\obj\Debug\net6.0\fibannocii.csproj.CoreCompileInputs.cache
+C:\Activities\fibannocii\bin\Debug\net6.0\fibannocii.exe
+C:\Activities\fibannocii\bin\Debug\net6.0\fibannocii.deps.json
+C:\Activities\fibannocii\bin\Debug\net6.0\fibannocii.runtimeconfig.json
+C:\Activities\fibannocii\bin\Debug\net6.0\fibannocii.dll
+C:\Activities\fibannocii\bin\Debug\net6.0\fibannocii.pdb
+C:\Activities\fibannocii\obj\Debug\net6.0\fibannocii.dll
+C:\Activities\fibannocii\obj\Debug\net6.0\refint\fibannocii.dll
+C:\Activities\fibannocii\obj\Debug\net6.0\fibannocii.pdb
+C:\Activities\fibannocii\obj\Debug\net6.0\fibannocii.genruntimeconfig.cache
+C:\Activities\fibannocii\obj\Debug\net6.0\ref\fibannocii.dll

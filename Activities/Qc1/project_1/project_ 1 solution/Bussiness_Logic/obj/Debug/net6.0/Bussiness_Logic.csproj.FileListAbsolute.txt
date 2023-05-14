@@ -1,0 +1,17 @@
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\bin\Debug\net6.0\Bussiness_Logic.deps.json
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\bin\Debug\net6.0\Bussiness_Logic.dll
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\bin\Debug\net6.0\Bussiness_Logic.pdb
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\bin\Debug\net6.0\FluentApi.dll
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\bin\Debug\net6.0\Models.dll
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\bin\Debug\net6.0\FluentApi.pdb
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\bin\Debug\net6.0\Models.pdb
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\obj\Debug\net6.0\Bussiness_Logic.csproj.AssemblyReference.cache
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\obj\Debug\net6.0\Bussiness_Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\obj\Debug\net6.0\Bussiness_Logic.AssemblyInfoInputs.cache
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\obj\Debug\net6.0\Bussiness_Logic.AssemblyInfo.cs
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\obj\Debug\net6.0\Bussiness_Logic.csproj.CoreCompileInputs.cache
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\obj\Debug\net6.0\Bussiness_Logic.csproj.CopyComplete
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\obj\Debug\net6.0\Bussiness_Logic.dll
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\obj\Debug\net6.0\refint\Bussiness_Logic.dll
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\obj\Debug\net6.0\Bussiness_Logic.pdb
+C:\Revature\p1-saiprasad-Telagavalasa\project_1\project_ 1 solution\Bussiness_Logic\obj\Debug\net6.0\ref\Bussiness_Logic.dll

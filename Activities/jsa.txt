@@ -1,0 +1,69 @@
+JavaScript is used to create client-side dynamic pages.
+JavaScript (js) is a light-weight object-oriented programming language which is used by several websites for scripting the webpages.
+ It is an interpreted, full-fledged programming language that enables dynamic interactivity on websites when applied to an HTML document.
+
+
+3) Places to put JavaScript code
+Between the body tag of html
+Between the head tag of html
+In .js file (external javaScript)
+
+
+The Browser Object Model (BOM) is used to interact with the browser.
+
+The default object of browser is window means you can call all the functions of window by specifying window or directly
+ window oject
+
+The window object represents a window in browser.
+ An object of window is created automatically by the browser.
+
+alert.propmt,confirm,open,close,settimeout
+
+
+The JavaScript screen object holds information of browser screen.
+ It can be used to display screen width, height, colorDepth, pixelDepth etc.
+
+
+The JavaScript navigator object is used for browser detection. 
+It can be used to get browser information such as appName, appCodeName, userAgent etc.
+
+window.navigator or navigator
+
+
+The JavaScript history object represents an array of URLs visited by the user.
+ By using this object, you can load previous, forward or any particular page.
+
+window.history;
+
+ forward(),back(),go(2) goes to 2nd url.
+
+
+What is the difference between HTML and innerHTML?
+The Differences Between
+
+The innerHTML property returns: The text content of the element, including all spacing and inner HTML tags.
+ The innerText property returns: Just the text content of the element and all its children, without CSS hidden text spacing and tags, except <script> and <style> elements.
+
+
+
+
+what is dom
+document object model is that allows programs and scripts to dynamically access and update the content, structure, and style of a document."
+
+The getElementById() method will return the element as an object if the matching element was found, 
+or null if no matching element was found in the document.
+
+
+The getElementsByClassName() method used to select all the elements having specific class names.
+ This method returns an array-like object of all child elements which have all of the given class name
+
+
+
+
+The innerHTML property returns:
+The text content of the element, including all spacing and inner HTML tags.
+The innerText property returns:
+Just the text content of the element and all its children, without CSS hidden text spacing and tags, except <script> and <style> elements.
+The textContent property returns:
+The text content of the element and all descendaces, with spacing and CSS hidden text, but without tags.
+
